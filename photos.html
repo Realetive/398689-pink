@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Социальная сеть Pink</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__menu-item menu-item--item-active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="photos.html">Фотографии</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="page-title">Фотографии пользователей</h1>
+      <section class="posts-list">
+        <h2 class="vissualy-hidden">Посты</h2>
+        <section class="post">
+          <img src="http://placehold.it/320x137" alt="Панорамная фотография гор">
+          <p class="post__mark">Панорама дня</p>
+          <p class="post__text">
+            <span class="post__name">Анна</span>
+            <span class="post__time">(5 минут назад)</span>
+            Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 215</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Автомобиль перед камерой на фотосьемках">
+          <p class="post__text">
+            <span class="post__name">Левон</span>
+            <span class="post__time">(5 часов назад)</span>
+            Вчера он на луну летал, сегодня в руки к нам попал
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 356</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Барабанная установака">
+          <p class="post__text">
+            <span class="post__name">Антон</span>
+            <span class="post__time">(12 часов назад)</span>
+            Соседи будут рады!
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 555</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Фотография стеклянных небоскребов сизу вверх">
+          <p class="post__text">
+            <span class="post__name">Борис</span>
+            <span class="post__time">(20 часов назад)</span>
+            Соседи будут рады!
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 215</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Кубнская бахча. Открытый раынок арбузов и дынь">
+          <p class="post__text">
+            <span class="post__name">Сергей</span>
+            <span class="post__time">(25 часов назад)</span>
+            Самая кубанская в мире!
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 4</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Горы">
+          <p class="post__text">
+            <span class="post__name">Максим</span>
+            <span class="post__time">(40 часов назад)</span>
+            Где снег-то?
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 150</p>
+        </section>
+
+        <section class="post">
+          <img src="http://placehold.it/290x180" alt="Крыло самолета">
+          <p class="post__text">
+            <span class="post__name">Надежда</span>
+            <span class="post__time">(45 часов назад)</span>
+            Всем GM и взаимные лайки!
+          </p>
+          <img class="post__likes" src="http://placehold.it/13x12" alt="Лайк">
+          <p class="post_likes-count">Нравится: 2560</p>
+        </section>
+      </section>
+
+      <section class="your-post">
+        <h3 class="your-post__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h3>
+        <img class="your-post__image" src="http://placehold.it/280x374" alt="Фотограяфия для вашего поста">
+        <img class="your-post__icon" src="http://placehold.it/44x44" alt="Кадрировать">
+        <img class="your-post__icon" src="http://placehold.it/44x44" alt="Фильтр">
+        <img class="your-post__icon" src="http://placehold.it/44x44" alt="Яркость и контрастность">
+        <input class="your-post__intensity" min="1" max="10" step="1" type="range" name="filter intensity">
+        <input class="your-post__submit" type="button" name="make post" value="Запостить">
+        <button class="your-post__cancel" type="button" name="cancel">Отмена</button>
+      </section>
+
+      <footer class="page-footer">
+        <img class="page-footer__full-logo" src="http://placehold.it/147x40" alt="Логотип Pink">
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Twittr">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Facebook">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Play">
+        </a>
+        <p class="page-footer__academy">
+          Разработано
+          <img class="page-footer__academy-icon" src="http://placehold.it/27x34" alt="Иконка  HTML Academy">
+        </p>
+      </footer>
+
+    </main>
+
+  </body>
+</html>
