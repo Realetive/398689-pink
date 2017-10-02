@@ -2,11 +2,118 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Социальная сеть Pink</title>
   </head>
   <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__menu-item menu-item--item-active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="photos.html">Фотографии</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <main class="page-main">
+      <h1 class="vissualy-hidden">Социальная сеть Pink</h1>
+      <section class="download">
+        <h2 class="vissualy-hidden">Скачайте наш приложение</h2>
+        <img class="download__hand-app-photo" src="http://placehold.it/498x314" width="498" height="314" alt="Фото телефона">
+        <button class="download__get-app" type="button">Скачать приложение</button>
+        <img class="download__icon" src="http://placehold.it/47x56" width="47" height="56" alt="Скачать из App Store">
+        <img class="download__icon" src="http://placehold.it/47x56" width="47" height="56" alt="Скачать из Play Mrket">
+        <img class="download__icon" src="http://placehold.it/47x56" width="47" height="56" alt="Скачать из Windows Store">
+        <p class="download_description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+
+      <section class="about-app">
+        <h2 class="about-app__why">Устали от серости мегаполиса?</h2>
+        <h2 class="about-app__why">Нам есть, что вам предложить!</h2>
+        <h3 class="about-app__features-title">Поднимает настроение</h3>
+        <p class="about-app__features">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        <h3 class="about-app__features-title">Меняет мир вокруг</h3>
+        <p class="about-app__features">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        <h3 class="about-app__features-title">Заводит новых друзей</h3>
+        <p class="about-app__features">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        <img src="http://placehold.it/157x320" width="157" height="320" alt="Фото телефона">
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__name">Николай Петров</h2>
+        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+          А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </section>
+
+      <section class="plans">
+        <h2 class="visually-hidden">Планы</h2>
+        <table class="plans__table">
+          <tr class="plans__title">
+            <td class="plans__features">База<span class="plans__price">1,99 USD</span></td>
+            <td class="plans__features">Стандарт<span class="plans__price">3,99 USD</span></td>
+            <td class="plans__features">Анлим<span class="plans__price">9,99 USD</span></td>
+          </tr>
+          <tr class="plans__title">
+            <td class="plans__features">Розовый фильтр <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+            <td class="plans__features">Розовый фильтр <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+            <td class="plans__features">Розовый фильтр <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+          </tr>
+          <tr class="plans__title">
+            <td class="plans__features">Смайлики <img class="plans__image-off" src="http://placehold.it/31x26" alt="Не выбрано"></td>
+            <td class="plans__features">Смайлики <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+            <td class="plans__features">Смайлики <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+          </tr>
+          <tr class="plans__title">
+            <td class="plans__features">Комментарии <img class="plans__image-off" src="http://placehold.it/31x26" alt="Не выбрано"></td>
+            <td class="plans__features">Комментарии <img class="plans__image-off" src="http://placehold.it/31x26" alt="Не выбрано"></td>
+            <td class="plans__features">Комментарии <img class="plans__image-on" src="http://placehold.it/31x26" alt="Выбрано"></td>
+          </tr>
+        </table>
+
+      </section>
+
+      <section class="contacts">
+        <h2 class="contacts__call-to-action">Остались вопросы? Свяжитесь с нами!</h2>
+        <h3 class="contacts__title">Звоните:</h3>
+        <p class="contacts__text">+7 (812) 555-66-66</p>
+        <h3 class="contacts__title">Пишите:</h3>
+        <p class="contacts__text">mail@htmlacademy.ru</p>
+        <h3 class="contacts__title">Приезжайте в гости:</h3>
+        <p class="contacts__text">ул. Большая Конюшенная, 19/8</p>
+        <img class="contacts__map" src="http://placehold.it/320x645" width="320" height="645" alt="">
+      </section>
+
+      <footer class="page-footer">
+        <img class="page-footer__full-logo" src="http://placehold.it/147x40" alt="Логотип Pink">
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Twittr">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Facebook">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Play">
+        </a>
+        <p class="page-footer__academy">
+          Разработано
+          <img class="page-footer__academy-icon" src="http://placehold.it/27x34" alt="Иконка  HTML Academy">
+        </p>
+      </footer>
+
+    </main>
 
   </body>
 </html>

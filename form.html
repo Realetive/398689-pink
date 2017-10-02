@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Социальная сеть Pink</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo" src="http://placehold.it/75x22" width="75" height="22" alt="Приложение Pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <ul class="main-nav__list">
+          <li class="main-nav__menu-item menu-item--item-active">
+            <a>Главная</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="photos.html">Фотографии</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="main-nav__menu-item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <h1 class="page-title">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      <section class="contest">
+        <h3 class="contest__title">Поделитесь своей историей и получите шанс выиграть ценный приз
+          — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:</h3>
+        <form class="contest__form" action="https://echo.htmlacademy.ru" method="post">
+          <p>
+            <label class="contest__text-lable" for="surname">Фамилия:</label>
+            <input class="contest__field" type="text" name="surname" id="surname" placeholder="Укажите фамаилию*" required>
+          </p>
+          <p>
+            <label class="contest__text-lable" for="name">Имя:</label>
+            <input class="contest__field" type="text" name="name" id="name" placeholder="Введите ваше имя*" required>
+          </p>
+          <p>
+            <label class="contest__text-lable" for="midname">Отчество:</label>
+            <input class="contest__field" type="text" name="midname" id="midname" placeholder="Ну и отчество тоже">
+          </p>
+
+          <h3 class="contest__form-title">Ваши безбашенные достижения в путешествии</h3>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="selfie" id="selfie" checked>
+            <label class="contest__checkbox" for="selfie">Сделал селфи с акулой</label>
+          </p>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="tan" id="tan" checked>
+            <label class="contest__checkbox" for="tan">Обгорел на пляже</label>
+          </p>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="norris" id="norris" checked>
+            <label class="contest__checkbox" for="norris">Видел Чака Норриса</label>
+          </p>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="gift" id="gift">
+            <label class="contest__checkbox" for="gift">Накупил сувениров</label>
+          </p>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="tower" id="tower" checked>
+            <label class="contest__checkbox" for="tower">Удержал башню</label>
+          </p>
+          <p>
+            <input class="contest__checkbox-lable" type="checkbox" name="hotel" id="hotel">
+            <label class="contest__checkbox" for="hotel">Разгромил отель</label>
+          </p>
+          <p>
+            <label class="contest__text-lable" for="phonenumber">Номер телефона:</label>
+            <input class="contest__field" type="text" name="phonenumber" id="phonenumber" placeholder="Номер, пожалуйста">
+          </p>
+          <p>
+            <label class="contest__text-lable" for="email">адрес почты:</label>
+            <input class="contest__field" type="text" name="email" id="email" placeholder="Введите почту*">
+          </p>
+
+          <h3 class="contest__form-title">С каким приложением путешествовали?</h3>
+          <p>
+            <label class="contest__radio-lable" for="ios">Pink для iOS</label>
+            <input class="contest__radio" type="radio" name="platform" value="ios" id="ios" checked>
+          </p>
+          <p>
+            <label class="contest__radio-lable" for="android">Pink для Android</label>
+            <input class="contest__radio" type="radio" name="platform" value="android" id="android">
+          </p>
+          <p>
+            <label class="contest__radio-lable" for="windows">Pink для Windows</label>
+            <input class="contest__radio" type="radio" name="platform" value="windows" id="windows">
+          </p>
+
+          <h3 class="contest__form-title">Опишите свои эмоции</h3>
+          <textarea class="contest__textarea" name="emotions" rows="8" cols="40" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          <input type="submit" value="Отправить форму">
+        </form>
+      </section>
+
+      <!-- Модальные окна -->
+      <section class="madal-fail">
+        <h3 class="madal-fail__title">Что-то пошло не так!</h3>
+        <p class="madal-fail__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
+        <button class="madal-fail__button" type="button">Ок</button>
+      </section>
+
+      <section class="madal-ok">
+        <h3 class="madal-ok__title">Ваша заявка отправлена</h3>
+        <p class="madal-ok__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
+        <button class="madal-ok__button" type="button">Закрыть окно</button>
+      </section>
+
+      <footer class="page-footer">
+        <img class="page-footer__full-logo" src="http://placehold.it/147x40" alt="Логотип Pink">
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Twittr">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Facebook">
+        </a>
+        <a class="page-footer__social_link" href="#">
+          <img class="page-footer__social_icon" src="http://placehold.it/51x51" alt="Иконка Play">
+        </a>
+        <p class="page-footer__academy">
+          Разработано
+          <img class="page-footer__academy-icon" src="http://placehold.it/27x34" alt="Иконка  HTML Academy">
+        </p>
+      </footer>
+    </main>
+
+  </body>
+</html>
